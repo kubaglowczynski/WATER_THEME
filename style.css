@@ -68,6 +68,7 @@ h1{
     width: 25px;
     margin: 5px auto;
     cursor: pointer;
+    border-radius: 50%;
 }
 .social-links{
     width: 50px;
@@ -134,6 +135,9 @@ h1{
 }
 .bubbles img:nth-child(7){
     animation-delay: 2s;
+}
+.social-links img:hover, .useful-links img:hover{
+background-color: rgb(65, 127, 148);
 }
 
 @media screen and (max-width: 600px){
